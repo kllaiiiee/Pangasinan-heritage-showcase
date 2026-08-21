@@ -81,7 +81,7 @@ export default function HeritageCard({
         </p>
 
         <Link
-          href={`/Pangasinan-heritage-showcase/heritage/${slug}`}
+          href={`/heritage/${slug}`}
           style={{
             textDecoration: "none",
             alignSelf: "flex-start",

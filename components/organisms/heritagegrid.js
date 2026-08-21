@@ -1,12 +1,17 @@
 import HeritageCard from "../molecules/heritagecard";
 
+const basePath =
+  process.env.NODE_ENV === "production"
+    ? "/Pangasinan-heritage-showcase"
+    : "";
+
 const heritageSites = [
   {
     name: "Hundred Islands",
     location: "Alaminos, Pangasinan",
     description:
       "A famous island destination known for its beautiful islands and coastal scenery.",
-    image: "/images/hundred-islands.jpg",
+    image: "/Pangasinan-heritage-showcase/images/hundred-islands.jpg",
     slug: "hundred-islands",
   },
   {
@@ -14,7 +19,7 @@ const heritageSites = [
     location: "Bolinao, Pangasinan",
     description:
       "A historic lighthouse and landmark overlooking the coast of Bolinao.",
-    image: "/images/bolinao-lighthouse.jpg",
+    image: "/Pangasinan-heritage-showcase/images/bolinao-lighthouse.jpg",
     slug: "bolinao-lighthouse",
   },
   {
@@ -22,7 +27,7 @@ const heritageSites = [
     location: "Balungao, Pangasinan",
     description:
       "A natural attraction known for its hot spring waters and relaxing environment.",
-    image: "/images/balungao-hot-spring.jpg",
+    image: "/Pangasinan-heritage-showcase/images/balungao-hot-spring.jpg",
     slug: "balungao-hot-spring",
   },
 ];
