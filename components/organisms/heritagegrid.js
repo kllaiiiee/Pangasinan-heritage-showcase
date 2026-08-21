@@ -42,8 +42,9 @@ export default function HeritageGrid({ searchQuery = "" }) {
 
   return (
     <section
+      id="heritage"
       aria-labelledby="heritage-sites-heading"
-      style={{ 
+      style={{
         padding: "40px 20px",
       }}
     >

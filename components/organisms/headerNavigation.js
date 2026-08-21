@@ -13,7 +13,6 @@ export default function HeaderNavigation() {
         borderBottom: "1px solid #D1D5DB",
       }}
     >
-     
       <Link
         href="/"
         style={{
@@ -30,7 +29,6 @@ export default function HeaderNavigation() {
         Pangasinan Heritage
       </Link>
 
-      
       <nav
         style={{
           display: "flex",
