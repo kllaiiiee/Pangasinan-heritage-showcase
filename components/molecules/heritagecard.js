@@ -12,7 +12,7 @@ export default function HeritageCard({
   return (
     <article
       style={{
-        backgroundColor: "#b1f9d5", // light green background for image
+        backgroundColor: "#b1f9d5",
         borderRadius: "12px",
         overflow: "hidden",
         boxShadow: "0 4px 12px rgba(0, 0, 0, 0.12)",
@@ -81,7 +81,7 @@ export default function HeritageCard({
         </p>
 
         <Link
-          href={`/heritage/${slug}`}
+          href={`/Pangasinan-heritage-showcase/heritage/${slug}`}
           style={{
             textDecoration: "none",
             alignSelf: "flex-start",

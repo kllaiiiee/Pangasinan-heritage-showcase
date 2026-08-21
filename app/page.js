@@ -83,7 +83,7 @@ export default function Home() {
         <section
           id="about"
           style={{
-            padding: "48px 20px",
+            padding: "32px 20px",
             backgroundColor: "#cfeadc",
             textAlign: "center",
           }}
