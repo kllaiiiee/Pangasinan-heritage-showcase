@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Icon from "../atoms/icon";
 
-const basePath = "/Pangasinan-heritage-showcase";
-
 export default function HeaderNavigation() {
   return (
     <header
@@ -15,8 +13,9 @@ export default function HeaderNavigation() {
         borderBottom: "1px solid #D1D5DB",
       }}
     >
+     
       <Link
-        href={`${basePath}/`}
+        href="/"
         style={{
           textDecoration: "none",
           color: "#0B5D8C",
@@ -31,6 +30,7 @@ export default function HeaderNavigation() {
         Pangasinan Heritage
       </Link>
 
+      
       <nav
         style={{
           display: "flex",
@@ -39,7 +39,7 @@ export default function HeaderNavigation() {
         }}
       >
         <Link
-          href={`${basePath}/`}
+          href="/"
           style={{
             textDecoration: "none",
             color: "#168C8C",
@@ -50,20 +50,22 @@ export default function HeaderNavigation() {
         </Link>
 
         <Link
-          href={`${basePath}/#heritage`}
+          href="/#heritage"
           style={{
             textDecoration: "none",
             color: "#234D3C",
+            fontWeight: "600",
           }}
         >
           Heritage Sites
         </Link>
 
         <Link
-          href={`${basePath}/#about`}
+          href="/#about"
           style={{
             textDecoration: "none",
             color: "#234D3C",
+            fontWeight: "600",
           }}
         >
           About
