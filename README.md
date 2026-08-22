@@ -8,6 +8,9 @@
 
 **Selected Framework:** Next.js
 
+**GitHub Repository:**  
+https://github.com/kllaiiiee/Pangasinan-heritage-showcase/
+
 **Live Website:**  
 https://kllaiiiee.github.io/Pangasinan-heritage-showcase/
 
