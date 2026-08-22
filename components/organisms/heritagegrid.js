@@ -1,10 +1,5 @@
 import HeritageCard from "../molecules/heritagecard";
 
-const basePath =
-  process.env.NODE_ENV === "production"
-    ? "/Pangasinan-heritage-showcase"
-    : "";
-
 const heritageSites = [
   {
     name: "Hundred Islands",
