@@ -6,7 +6,7 @@ const heritageSites = [
     location: "Alaminos, Pangasinan",
     description:
       "A famous island destination known for its beautiful islands and coastal scenery.",
-    image: "/Pangasinan-heritage-showcase/images/hundred-islands.jpg",
+    image: "/Pangasinan-heritage-showcase/images/hundred-islands.webp",
     slug: "hundred-islands",
   },
   {
@@ -14,7 +14,7 @@ const heritageSites = [
     location: "Bolinao, Pangasinan",
     description:
       "A historic lighthouse and landmark overlooking the coast of Bolinao.",
-    image: "/Pangasinan-heritage-showcase/images/bolinao-lighthouse.jpg",
+    image: "/Pangasinan-heritage-showcase/images/bolinao-lighthouse.webp",
     slug: "bolinao-lighthouse",
   },
   {
@@ -22,7 +22,7 @@ const heritageSites = [
     location: "Balungao, Pangasinan",
     description:
       "A natural attraction known for its hot spring waters and relaxing environment.",
-    image: "/Pangasinan-heritage-showcase/images/balungao-hot-spring.jpg",
+    image: "/Pangasinan-heritage-showcase/images/balungao-hot-spring.webp",
     slug: "balungao-hot-spring",
   },
 ];

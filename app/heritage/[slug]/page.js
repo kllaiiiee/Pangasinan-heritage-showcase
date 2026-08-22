@@ -6,8 +6,8 @@ const heritageSites = {
     location: "Alaminos, Pangasinan",
     description:
       "A famous island destination known for its beautiful islands and coastal scenery.",
-    image: `${basePath}/images/hundred-islands.jpg`,
-secondImage: `${basePath}/images/hundred-islands-2.jpg`,
+    image: `${basePath}/images/hundred-islands.webp`,
+    secondImage: `${basePath}/images/hundred-islands-2.webp`,
   },
 
   "bolinao-lighthouse": {
@@ -15,8 +15,8 @@ secondImage: `${basePath}/images/hundred-islands-2.jpg`,
     location: "Bolinao, Pangasinan",
     description:
       "A historic lighthouse and landmark overlooking the coast of Bolinao.",
-   image: `${basePath}/images/bolinao-lighthouse.jpg`,
-secondImage: `${basePath}/images/bolinao-lighthouse-2.jpg`,
+    image: `${basePath}/images/bolinao-lighthouse.webp`,
+    secondImage: `${basePath}/images/bolinao-lighthouse-2.webp`,
   },
 
   "balungao-hot-spring": {
@@ -24,8 +24,8 @@ secondImage: `${basePath}/images/bolinao-lighthouse-2.jpg`,
     location: "Balungao, Pangasinan",
     description:
       "A natural attraction known for its hot spring waters and relaxing environment.",
-    image: `${basePath}/images/balungao-hot-spring.jpg`,
-secondImage: `${basePath}/images/balungao-hot-spring-2.jpg`,
+    image: `${basePath}/images/balungao-hot-spring.webp`,
+    secondImage: `${basePath}/images/balungao-hot-spring-2.webp`,
   },
 };
 
